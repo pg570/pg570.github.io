@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.1ef9a5c0.css",
+    "main.css": "/static/css/main.ceec4dae.css",
     "main.js": "/static/js/main.c2dc7d17.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/Passport_Photo.jpeg": "/static/media/Passport_Photo.7144d8ced43cd58bbbd6.jpeg",
@@ -8,12 +8,12 @@
     "static/media/Bitrix24.png": "/static/media/Bitrix24.7aa97e743a750a9ab240.png",
     "static/media/Prashant_Giri_Resume.pdf": "/static/media/Prashant_Giri_Resume.4378396ab1053a75a357.pdf",
     "index.html": "/index.html",
-    "main.1ef9a5c0.css.map": "/static/css/main.1ef9a5c0.css.map",
+    "main.ceec4dae.css.map": "/static/css/main.ceec4dae.css.map",
     "main.c2dc7d17.js.map": "/static/js/main.c2dc7d17.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ef9a5c0.css",
+    "static/css/main.ceec4dae.css",
     "static/js/main.c2dc7d17.js"
   ]
 }
