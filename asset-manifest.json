@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c2cf1c6f.css",
-    "main.js": "/static/js/main.226927f5.js",
+    "main.js": "/static/js/main.f361b399.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/Passport_Photo.jpeg": "/static/media/Passport_Photo.7144d8ced43cd58bbbd6.jpeg",
     "static/media/Pharmeasy.png": "/static/media/Pharmeasy.ca516f53984c9b04b9cb.png",
@@ -9,11 +9,11 @@
     "static/media/Prashant_Giri_Resume.pdf": "/static/media/Prashant_Giri_Resume.4378396ab1053a75a357.pdf",
     "index.html": "/index.html",
     "main.c2cf1c6f.css.map": "/static/css/main.c2cf1c6f.css.map",
-    "main.226927f5.js.map": "/static/js/main.226927f5.js.map",
+    "main.f361b399.js.map": "/static/js/main.f361b399.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c2cf1c6f.css",
-    "static/js/main.226927f5.js"
+    "static/js/main.f361b399.js"
   ]
 }
