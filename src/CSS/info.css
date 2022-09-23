@@ -1,0 +1,50 @@
+.icon:hover{
+    transform: translate(0,-7px);
+    cursor: pointer;
+}
+.textgrad{
+    background: -webkit-linear-gradient(rgb(236, 192, 143), #f0a714);
+    -webkit-background-clip : text ;
+    -webkit-text-fill-color: transparent
+}
+@media screen and (max-width: 480px){
+    #img0{
+        width: 200px;
+        height: 200px;
+        margin-left: -100px;
+        
+    }
+    #box2{
+        width: 90%;
+        margin-top: 90px;
+        margin-left: 50px;
+    }
+    #text1,#text4{
+        font-size: 15px;
+        margin-top: -2px;
+        font-weight: 400;
+        line-height: 1.2;
+    }
+    #text2,#text3{
+        font-size: 30px;
+        margin-top: -8px;
+    }
+    #btn2,#btn1{
+        margin-top: -50px;
+        padding: 5px 15px;
+        border: 2px solid #e9ad35;
+    }
+    #text5,#text6{
+        font-size: 12px ;
+    }
+    #box1{
+        gap: 10px;
+    }
+    #flex1{
+        margin-top: 400px;
+        margin-left: 10px;
+        margin-right:10px;
+        gap: 10px
+    }
+    
+}

@@ -1,0 +1,52 @@
+#envelope:hover{
+    transform: translate(0, -5px);
+    cursor: pointer;
+}
+#linkedin:hover{
+    transform: translate(0, -5px);
+    cursor: pointer;
+}
+#github:hover{
+    transform: translate(0, -5px);
+    cursor: pointer;
+}
+#twitter:hover{
+    transform: translate(0, -5px);
+    cursor: pointer;
+}
+#phone:hover{
+    transform: translate(0, -5px);
+    cursor: pointer;
+}
+#home:hover{
+    transform: translate(0, -5px);
+    cursor: pointer;
+}
+#envelope{
+    color:white;
+}
+#linkedin{
+    color:white;
+}
+#github{
+    color:white;
+}
+#twitter{
+    color:white;
+}
+#phone{
+    color:white;
+}
+#home{
+    color:white;
+}
+
+
+@media screen and (max-width : 480px){
+    #footer{
+        width: 620px;
+    }
+    #footer>div{
+        width: 70%;
+    }
+}

@@ -1,0 +1,25 @@
+.image{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.figure:hover .image{
+    -webkit-transform: scale(1);
+	transform: scale(1.03);
+}
+
+@media screen and (max-width : 480px) {
+	.figure{
+		width: 150%;
+	}
+	#h12{
+		margin-top: 0px;
+		margin-left: 100px;
+	}
+	.flx50 img{
+		width: 50px;
+		height: 50px;
+	}
+	
+}
