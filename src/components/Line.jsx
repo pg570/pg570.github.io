@@ -1,14 +1,38 @@
-import React from 'react'
-import "../CSS/line.css"
+import { Box } from "@chakra-ui/react";
+import React from "react";
 
 function Line() {
   return (
-    <div id='b1' style={{width:"85%",margin : "auto", display:"flex",justifyContent:"space-between",alignItems:"center" , marginTop:"70px", marginBottom:"70px"}}>
-        <div  id='b2' style={{width:"10px", height:"10px",backgroundColor:"#e9ad35",borderRadius:"50%"}}></div>
-        <div className='b2' style={{width:"10px", height:"10px",backgroundColor:"#e9ad35",borderRadius:"50%"}}></div>
-        <div style={{width: "95%",height: "5px",borderRadius: "10px",backgroundColor:"#e9ad35"}}></div>
-    </div>
-  )
+    <Box
+      w={"90%"}
+      m="auto"
+      display={"flex"}
+      justifyContent="center"
+      alignItems={"center"}
+      gap={[2, 3, 5]}
+      mt={["20px", "20px", "50px"]}
+      mb={["20px", "20px", "50px"]}
+    >
+      <Box
+        w={[2, 2, 3]}
+        h={[2, 2, 3]}
+        bgColor="#e9ad35"
+        borderRadius={"50%"}
+      ></Box>
+      <Box
+        w={[2, 2, 3]}
+        h={[2, 2, 3]}
+        bgColor="#e9ad35"
+        borderRadius={"50%"}
+      ></Box>
+      <Box
+        w={["80%", "90%", "90%"]}
+        h={[1, 2, 2]}
+        borderRadius="10px"
+        bgColor="#e9ad35"
+      ></Box>
+    </Box>
+  );
 }
 
-export default Line
+export default Line;

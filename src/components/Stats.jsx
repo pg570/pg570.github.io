@@ -1,41 +1,26 @@
-import { Box, Heading, SimpleGrid, Text } from '@chakra-ui/react'
-import React from 'react'
+import { Heading, Image, SimpleGrid, Text } from "@chakra-ui/react";
+import React from "react";
 
 function Stats() {
   return (
-    <div style={{marginTop:"50px"}}>
-        <Heading color="#e9ad35" size="3xl">Statistics</Heading>
+    <div style={{ marginTop: "50px" }}>
+      <Heading _hover={{ color: "black" }} color="#e9ad35">
+      <Text 
+        fontSize={["3xl", "4xl", "5xl", "7xl"]}>
+        Statistics
+        </Text>
+      </Heading>
 
-        <SimpleGrid style={{marginTop:"50px", marginBottom:"50px"}} w="54%" m="auto" p={5} spacing={10} columns={[2,3,4]}>
-         <Box>
-          <Box p={10} border="6px solid #e9ad35" borderRadius="50%">
-            <Text fontSize="2xl" fontWeight={500} color="#555">1200+</Text>
-          </Box> <Text fontSize="3xl" fontWeight={500}>Hours</Text> <Text color="#555" fontWeight={500}>of Full Stack Coding</Text>
-          </Box>
-
-
-          <Box>
-          <Box p={10} border="6px solid #e9ad35" borderRadius="50%">
-            <Text fontSize="2xl" fontWeight={500} color="#555">86+</Text>
-          </Box><Text fontSize="3xl" fontWeight={500}>Git</Text> <Text color="#555" fontWeight={500}>Commits</Text>
-          </Box>
-
-          <Box>
-          <Box p={10} border="6px solid #e9ad35" borderRadius="50%">
-            <Text fontSize="2xl" fontWeight={500} color="#555">5+</Text>
-          </Box><Text fontSize="3xl" fontWeight={500}>Projects</Text> <Text color="#555" fontWeight={500}>Done</Text>
-          </Box>
-
-          <Box>
-
-          <Box p={10} border="6px solid #e9ad35" borderRadius="50%">
-            <Text fontSize="2xl" fontWeight={500} color="#555">100+</Text>
-          </Box><Text fontSize="3xl" fontWeight={500}>Hours</Text> <Text color="#555" fontWeight={500}>of Soft Skills Sessions</Text>
-          </Box>
-        </SimpleGrid>
-
+      <SimpleGrid columns={[1,1,1,2]} w={"90%"} margin="auto" mt={5}>
+          <Image w="90%" margin="auto" src="https://github-readme-stats.vercel.app/api?username=pg570&show_icons=true&locale=en" />
+          <Image
+            w="90%"
+            margin="auto"
+            src="https://github-readme-streak-stats.herokuapp.com/?user=pg570&"
+          />
+      </SimpleGrid>
     </div>
-  )
+  );
 }
 
-export default Stats
+export default Stats;

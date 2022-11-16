@@ -12,22 +12,25 @@ const GitHub = () => {
   };
 
   return (
-    <div style={{marginBottom:"50px"}}>
-        <Heading id='h5' color="#e9ad35" size="3xl" mt={10} mb={10}>Days I Code</Heading>
-      <Box
-        w={["90%", "90%", "65%"]}
-        style={github}
-        className="github_Calender"
+    <div style={{ marginBottom: "50px" }}>
+      <Heading
+        _hover={{ color: "black" }}
+        color="#e9ad35"
+        size={["xl","2xl","2xl","3xl"]}
+        mt={[2,5,7,10]}
+        mb={[5,5,7,10]}
       >
+        Days I Code
+      </Heading>
+      <Box w={["90%", "90%","90%","80%"]} style={github} className="github_Calender">
         <GitHubCalendar
           style={{ margin: "auto" }}
           username="pg570"
           year={new Date().getFullYear()}
-          
         />
       </Box>
     </div>
   );
 };
 
-export default GitHub;
+export default GitHub;
