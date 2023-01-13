@@ -12,7 +12,7 @@ function Stats() {
       </Heading>
 
       <SimpleGrid columns={[1,1,1,2]} w={"90%"} margin="auto" mt={5}>
-          <Image w="90%" margin="auto" src="https://github-readme-stats.vercel.app/api?username=pg570&show_icons=true&locale=en" />
+          <Image w="90%" margin="auto" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=pg570&show_icons=true&locale=en" />
           <Image
             w="90%"
             margin="auto"
