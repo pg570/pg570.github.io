@@ -8,11 +8,13 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Stats from "./components/Stats";
+import Top from "./components/Top";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <Top />
       <Info />
       <Line />
       <Info2 />
