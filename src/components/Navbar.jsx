@@ -9,7 +9,7 @@ function Navbar() {
     <Box
       bgColor="#e9ad35"
       id="navbar"
-      p={[1, 2, 2, 3]}
+      p={[1, 1.5, 1.6, 1.7]}
       position="sticky"
       top={0}
       zIndex={1}
